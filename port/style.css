@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    padding: 0px;
+    flex: 1;
+    text-align: right;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+header ul li{
+    display: inline-block;
+    margin: 30px;
+    
+}
+header ul li a{
+    padding: 600px;
+    text-decoration: none;
+    font-size: 14px;
+}
+header ul li a:hover{
+    color: rgb(255, 0, 191);
+}
+.pagecontainer{
+    margin: 0px 150px;
+}
+.bannercontainer{
+    margin-top: 90px;
+}
+.red{
+    color: red;
+}
+footer{
+    text-align: center;
+}

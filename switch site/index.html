@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src=""C:\Users\Akintola\Desktop\game site\Playstation_Img\xbox logo.png" alt="">
+            <nav>
+                <ul id= "menulist">
+                    <li><a href="file:///C:/Users/Akintola/Desktop/game%20site/play%20site/idex.html">PLAYSTATION</a></li>
+                    <li><a href="C:\Users\Akintola\Desktop\game site\xbox site\index.html">XBOX </a></li>
+                    <li><a href="">VR Controller</a></li>
+                    <li><a href="">Others</a></li>
+            </ul>
+            </nav>
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\menu.png" class="menu-list" onclick="togglemenu()" >
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h4>SWITCH <br> Cremo </h4>
+                <h3>Wireless controllers for switch </h3>
+                <p>(compatible/Generic)</p>
+                <h2>$66</h2>
+                <button type="button">BUY NOW <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\arrow.png" alt=""></button>
+            </div>
+            <div class="col-2">
+                <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\nintendo-switch-pro-controller-nintendo-switch-joy-con-l-r-nintendo-0fee3ae24d42b5169c358f42102fe6a3.png" class="controller" alt="">
+                <div class="color-box"></div>
+                <div class="add-btn"> <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\add.png" alt="">
+                <p><small>Add to cart</small></p>
+                </div>
+            </div>
+        </div>
+             <div class="social-links">
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\fb_32x32.png" >
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\twitch_logo_323390.png">
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\twitter_32x32.png">
+        </div>
+        </div>
+        <script>
+            var menulist = document.getElementById("menulist");
+    
+            menulist.sttyle.maxHeight = "0px";
+    
+            function togglemenu(){
+                if(menulist.style.maxHeight == "0px")
+                {
+                    menulist.style.maxHeight = "130px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+</html>

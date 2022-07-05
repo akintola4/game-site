@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">VR Controller</a></li>
+                    <li><a href="C:\Users\Akintola\Desktop\game site\xbox site\index.html">XBOX </a></li>
+                    <li><a href="file:///C:/Users/Akintola/Desktop/game%20site/switch%20site/index.html">SWITCH</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h4>PS4 V4 <br>DaulShock 4</h4>
+                <h3>Wireless Controller for playstation 4</h3>
+                <p>(compatible/Generic)</p>
+                <h2>$44</h2>
+                <button type="button">Buy Now<img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\twisted-metal-black-playstation-2-playstation-4-playstation-3-gamecube-controller-ps4-controller-3e68e9982dd3bf011274c0771fce9555.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn"><img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\add.png">
+                    <p><small>Add to cart</small></p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="social-links">
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\fb.png">
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\tw.png">
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\ig.png">
+        </div>
+        </div>
+        <script>
+            var menulist = document.getElementById("menulist");
+
+            menulist.sttyle.maxHeight = "0px";
+
+            function togglemenu(){
+                if(menulist.style.maxHeight == "0px")
+                {
+                    menulist.style.maxHeight = "130px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+</html>

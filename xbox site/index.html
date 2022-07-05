@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\xbox logo.png" class="logo" alt="">
+        <nav>
+            <ul id="menulist">
+                <li><a href="file:///C:/Users/Akintola/Desktop/game%20site/play%20site/idex.html">PLAYSTATION</a></li>
+                <li><a href="">VR Controller</a></li>
+                    <li><a href="file:///C:/Users/Akintola/Desktop/game%20site/switch%20site/index.html">SWITCH</a></li>
+                    <li><a href="">Others</a></li>
+            </ul>
+        </nav>
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <h4>XBOX ONE <br>Reto 5</h4>
+            <h3>Wireless Controller for Xbox one</h3>
+            <p>(compatible/Generic)</p>
+            <h2>$70</h2>
+            <button type="button">Buy Now<img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\arrow.png"></button>
+        </div>
+        <div class="col-2">
+            <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\xbox-one-controller-xbox-360-controller-game-controllers-video-game-xbox-3113ba86012dc3e737563b1258a62bb6.png" class="controller">
+            <div class="color-box"></div>
+            <div class="add-btn"><img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\add.png">
+                <p><small>Add to cart</small></p>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="social-links">
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\fb_32x32.png" >
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\twitch_logo_323390.png">
+        <img src="C:\Users\Akintola\Desktop\game site\Playstation_Img\twitter_32x32.png">
+    </div>
+    </div>
+    <script>
+        var menulist = document.getElementById("menulist");
+
+        menulist.sttyle.maxHeight = "0px";
+
+        function togglemenu(){
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "130px";
+            }
+            else{
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
